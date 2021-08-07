@@ -632,9 +632,11 @@ li {
 .release-top .img{
     width: 60%;
     height: 100%;
-    background: url(https://static.wikia.nocookie.net/marveldatabase/images/1/1c/Black_Widow_%28film%29_poster_019.jpg/revision/latest?cb=20210629171105);
+    background: url(./img/BlackWidow.jpg);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 100%);
     background-position-y: -90px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .release-top .content {
